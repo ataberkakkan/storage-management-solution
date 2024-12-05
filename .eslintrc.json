@@ -5,5 +5,13 @@
     "standard",
     "plugin:tailwindcss/recommended",
     "prettier"
+  ],
+  "overrides": [
+    {
+      "files": ["*.ts", "*.tsx"],
+      "rules": {
+        "no-undef": "off"
+      }
+    }
   ]
 }
